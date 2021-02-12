@@ -2,7 +2,7 @@
 
 Con este proyecto puedes generar reportes en PDF desde PHP con datos de MySQL usando la librería FPDF.
 
-[Mira el vídeo donde hacemos este proyecto](https://pages.github.com/)
+[Mira el vídeo donde hacemos este proyecto](https://youtu.be/SlA7IbkwXoU)
 
 ## Requerimientos 📋
 - Servidor Web (Apache)
