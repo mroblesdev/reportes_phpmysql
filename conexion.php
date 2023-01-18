@@ -1,10 +1,11 @@
 <?php
-/************************************************************
-* Conexión a base de datos                                  *
-*                                                           *
-* Fecha:    2021-02-09                                      *
-* Autor:  Marko Robles                                      *
-* Web:  www.codigosdeprogramacion.com                       *
-************************************************************/
+
+/**
+ * Conexión a base de datos
+ * 
+ * Fecha: 17/01/2023
+ * Autor: Marco Robles
+ * Web:   https://github.com/mroblesdev
+ */
 
 $mysqli = new mysqli("localhost", "root", "password", "escuela");

@@ -1,11 +1,12 @@
 <?php
-/************************************************************
-* Formulario para generar reporte                           *
-*                                                           *
-* Fecha:    2021-02-09                                      *
-* Autor:  Marko Robles                                      *
-* Web:  www.codigosdeprogramacion.com                       *
-************************************************************/
+
+/**
+ * Formulario para generar reporte
+ * 
+ * Fecha: 17/01/2023
+ * Autor: Marco Robles
+ * Web:   https://github.com/mroblesdev
+ */
 
 require "conexion.php";
 
@@ -15,7 +16,7 @@ $resultado = $mysqli->query($sql);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -30,7 +31,7 @@ $resultado = $mysqli->query($sql);
 
     <form action="reporte.php" method="post" autocomplete="off">
 
-        Ingresa el grado
+        <label for="grado">Selecciona el grado: </label>
         <select id="grado" name="grado">
             <option value="">Selecciona una opcion</option>
             <?php while ($fila = $resultado->fetch_assoc()) { ?>

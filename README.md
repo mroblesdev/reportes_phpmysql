@@ -8,6 +8,7 @@ Con este proyecto puedes generar reportes en PDF desde PHP con datos de MySQL us
 - Servidor Web (Apache)
 - PHP (compatible con las versiones 5, 7 y 8)
 - MySQL 5 o superior
+- Extensiones de PHP [mbstring](http://php.net/manual/es/mbstring.installation.php)
 - phpMyAdmin (opcional)
 
 *Puedes usar un todo en uno como XAMPP, WAMPP u otro.*
@@ -19,6 +20,8 @@ Con este proyecto puedes generar reportes en PDF desde PHP con datos de MySQL us
 - Cambia los datos de conexión en el archivo ```conexión.php```
 - Ingresa desde un navegador a ```http://localhost/nombre_de_tu_carpeta```
 
-## Sígueme en YouTube para más contenido 💻🖥
+## Expresiones de Gratitud 🎁
 
-[https://www.youtube.com/channel/UC__81NGoklvbHXK8AsomltQ](https://www.youtube.com/channel/UC__81NGoklvbHXK8AsomltQ)
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ [Da clic aquí](https://www.paypal.com/paypalme/markorobles?locale.x=es_XC.) 
+* Da las gracias públicamente 🤓.
